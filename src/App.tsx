@@ -10,12 +10,12 @@ function App() {
               Available on {" "}
             </h2>
             <div className="flex justify-around w-40 m-auto">
-              <h4 className="text-lg text-white font-bold bg-blue-600 hover:bg-blue-600 bg-opacity-30 p-1 px-3 rounded-full border border-blue-800">
+              <h3 className="text-lg text-white font-bold bg-blue-600 hover:bg-blue-600 bg-opacity-30 p-1 px-3 rounded-full border border-blue-800">
                 PS5
-              </h4>
-              <h4 className="text-lg text-white font-bold bg-green-600 hover:bg-green-600 bg-opacity-30 p-1 px-3 rounded-full border border-green-800">
+              </h3>
+              <h3 className="text-lg text-white font-bold bg-green-600 hover:bg-green-600 bg-opacity-30 p-1 px-3 rounded-full border border-green-800">
                 XBOX
-              </h4>
+              </h3>
             </div>
           </div>
           <div className="flex justify-center items-center my-24 gap-8">
@@ -24,7 +24,7 @@ function App() {
               <strong className="text-9xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-600 to-orange">
                 GTA VI
               </strong>
-              <br /> countdown
+              <br /> <strong>countdown</strong> 
             </h1>
             <span className="h-0.5 bg-white w-96"></span>
           </div>
