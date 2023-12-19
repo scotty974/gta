@@ -49,7 +49,7 @@ const [timeRemaining, setTimeRemaining] = useState(calculateDate)
             </div>
             <div className="flex flex-col items-center">
                 <p className="text-8xl font-bold text-orange">{timeRemaining.hours}</p>
-                <h4 className="text-5xl text-white">hours</h4>
+                <h4 className="text-5xl text-white">Hours</h4>
             </div>
             <div className="flex flex-col items-center">
                 <p className="text-8xl font-bold text-orange">{timeRemaining.minutes}</p>
@@ -57,7 +57,7 @@ const [timeRemaining, setTimeRemaining] = useState(calculateDate)
             </div>
             <div className="flex flex-col items-center">
                 <p className="text-8xl font-bold text-orange">{timeRemaining.seconds}</p>
-                <h4 className="text-5xl text-white">secondes</h4>
+                <h4 className="text-5xl text-white">Seconds</h4>
             </div>
         </div>
         </>

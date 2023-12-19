@@ -24,7 +24,7 @@ function App() {
               <strong className="text-9xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-600 to-orange">
                 GTA VI
               </strong>
-              <br /> <strong>countdown</strong> 
+              <br /> <strong>countdown</strong>
             </h1>
             <span className="h-0.5 bg-white w-96"></span>
           </div>
