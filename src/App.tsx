@@ -18,13 +18,13 @@ function App() {
               </h3>
             </div>
           </div>
-          <div className="flex justify-center items-center my-24 gap-8">
+          <div className="flex justify-center items-center p-4 md:p-0 my-24 gap-8">
             <span className="h-0.5 bg-white w-96"></span>
-            <h1 className="text-center text-4xl text-white" >
-              <strong className="text-9xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-600 to-orange">
+            <h1 className="text-center text-4xl  text-white " >
+              <strong className="md:text-9xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-600 to-orange">
                 GTA VI
               </strong>
-              <br /> <strong>countdown</strong>
+              <br /> <strong className="text-xl md:text-4xl">countdown</strong>
             </h1>
             <span className="h-0.5 bg-white w-96"></span>
           </div>
