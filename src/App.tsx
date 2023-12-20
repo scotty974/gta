@@ -3,7 +3,7 @@ import Timer from "./components/Timer";
 function App() {
   return (
     <>
-      <main className="bg-[url('/img/gta6Cover.png')] bg-center bg-cover py-8 ">
+      <main className="bg-[url('/img/gta6Cover.png')] bg-center bg-cover py-2 ">
         <section className="container m-auto brightness-none">
           <div className="flex flex-col">
             <h2 className="text-center text-white text-lg my-8">
@@ -21,10 +21,10 @@ function App() {
           <div className="flex justify-center items-center p-4 md:p-0 my-24 gap-8">
             <span className="h-0.5 bg-white w-96"></span>
             <h1 className="text-center text-4xl  text-white " >
-              <strong className="md:text-9xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-600 to-orange">
+              <strong className="md:text-9xl text-3xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-600 to-orange">
                 GTA VI
               </strong>
-              <br /> <strong className="text-xl md:text-4xl">countdown</strong>
+              <br /> <strong className="text-xl md:text-3xl">countdown</strong>
             </h1>
             <span className="h-0.5 bg-white w-96"></span>
           </div>
