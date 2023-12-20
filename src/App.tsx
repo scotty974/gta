@@ -3,19 +3,19 @@ import Timer from "./components/Timer";
 function App() {
   return (
     <>
-      <main className="bg-[url('/img/gta6Cover.png')] bg-center bg-cover h-screen py-8 ">
+      <main className="bg-[url('/img/gta6Cover.png')] bg-center bg-cover py-8 ">
         <section className="container m-auto brightness-none">
           <div className="flex flex-col">
             <h2 className="text-center text-white text-lg my-8">
               Available on {" "}
             </h2>
             <div className="flex justify-around w-40 m-auto">
-              <h3 className="text-lg text-white font-bold bg-blue-600 hover:bg-blue-600 bg-opacity-30 p-1 px-3 rounded-full border border-blue-800">
+              <a  href="https://www.playstation.com/fr-fr/ps5/" target="_blank" className="text-lg text-white font-bold bg-blue-600 hover:bg-blue-600 bg-opacity-30 p-1 px-3 rounded-full border border-blue-800">
                 PS5
-              </h3>
-              <h3 className="text-lg text-white font-bold bg-green-600 hover:bg-green-600 bg-opacity-30 p-1 px-3 rounded-full border border-green-800">
+              </a>
+              <a href="https://www.xbox.com/fr-FR" target="_blank" className="text-lg text-white font-bold bg-green-600 hover:bg-green-600 bg-opacity-30 p-1 px-3 rounded-full border border-green-800">
                 XBOX
-              </h3>
+              </a>
             </div>
           </div>
           <div className="flex justify-center items-center p-4 md:p-0 my-24 gap-8">
